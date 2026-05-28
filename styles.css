@@ -80,6 +80,11 @@ button:hover {
   transform: translateY(-1px);
 }
 
+button.is-success,
+button.is-success:hover {
+  background: #15803d;
+}
+
 button:focus-visible {
   outline: 3px solid rgba(45, 111, 136, 0.35);
   outline-offset: 3px;
